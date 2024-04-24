@@ -45,11 +45,6 @@ public class FPSController : MonoBehaviour
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);
  
         #endregion
-
-
-
-        void Update()
-
  
         #region Handles Jumping
         if (Input.GetButton("Jump") && canMove && characterController.isGrounded)
